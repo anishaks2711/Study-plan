@@ -1,0 +1,431 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Cloud Computing Courses"
+        },
+        {
+            "id": 2,
+            "name": "Data Science Courses"
+        },
+        {
+            "id": 3,
+            "name": "Leadership & Management Courses"
+        },
+        {
+            "id": 4,
+            "name": "Marketing"
+        },
+        {
+            "id": 5,
+            "name": "Development Courses"
+        }
+    ],
+    "courses": [
+        {
+            "id": 10,
+            "name": "Ultimate AWS Certified Developer Associate 2022",
+            "author": "Stephane Maarek",
+            "duration": 32.5,
+            "category": 1,
+            "rating":5
+        },
+        {
+            "id": 11,
+            "name": "AZ-900 Bootcamp: Microsoft Azure Fundamentals (MAR 2022)",
+            "author": "Alan Rodrigues",
+            "duration": 15,
+            "category": 1,
+            "rating":4
+        },
+        {
+            "id": 12,
+            "name": "Certified Kubernetes Administrator (CKA) with Practice Tests",
+            "author": "Mumshad Mannambeth",
+            "duration": 18.5,
+            "category": 1,
+            "rating":5
+        },
+        {
+            "id": 13,
+            "name": "AZ-900 Bootcamp: Microsoft Azure Fundamentals (MAR 2022)",
+            "author": "Thomas Mitchell",
+            "duration": 5,
+            "category": 1,
+            "rating":3
+        },
+        {
+            "id": 14,
+            "name": "Master Microservices with Spring Boot and Spring Cloud",
+            "author": " Ranga Karanam",
+            "duration": 19.5,
+            "category": 1,
+            "rating":4
+        },
+        {
+            "id": 15,
+            "name": "Amazon Web Services (AWS) Certified 2022",
+            "author": "Paul Coady",
+            "duration": 46,
+            "category": 1,
+            "rating":5
+        },
+        {
+            "id": 16,
+            "name": "Google Cloud Platform (GCP) Fundamentals for Beginners",
+            "author": "Janakiram MSV",
+            "duration": 4,
+            "category": 1,
+            "rating":3
+        },
+        {
+            "id": 17,
+            "name": "AWS Certified Cloud Practitioner 2022",
+            "author": " Zeal Vora",
+            "duration": 17.5,
+            "category": 1,
+            "rating":4
+        },
+        {
+            "id": 18,
+            "name": "AWS Essentials",
+            "author": "Amazon Web Services",
+            "duration": 3.5,
+            "category": 1,
+            "rating":5
+        },
+        {
+            "id": 19,
+            "name": "Azure DevOps Fundamentals for Beginners",
+            "author": "Brian Culp",
+            "duration": 3.5,
+            "category": 1,
+            "rating":3
+        },
+        {
+            "id": 20,
+            "name": "The Data Science Course 2022: Complete Data Science Bootcamp",
+            "author": "365 Careers Team",
+            "duration": 30,
+            "category": 2,
+            "rating":4
+        },
+        {
+            "id": 21,
+            "name": "Tableau 2020 A-Z: Hands-On Tableau Training for Data Science",
+            "author": "Kirill Eremenko",
+            "duration": 9,
+            "category": 2,
+            "rating":5
+        },
+        {
+            "id": 22,
+            "name": "R Programming A-Z: R for Data Science With Real Exercises!",
+            "author": "Kirill Eremenko",
+            "duration": 10.5,
+            "category": 2,
+            "rating":3
+        },
+        {
+            "id": 23,
+            "name": "Python for Data Science and Machine Learning Bootcamp",
+            "author": "Jose Portilla",
+            "duration": 25,
+            "category": 2,
+            "rating":4
+        },
+        {
+            "id": 24,
+            "name": "Data Science A-Z: Real-Life Data Science Exercises Included",
+            "author": "Kirill Eremenko",
+            "duration": 21,
+            "category": 2,
+            "rating":5
+        },
+        {
+            "id": 25,
+            "name": "Statistics for Data Science and Business Analysis",
+            "author": "365 Careers Team",
+            "duration": 5,
+            "category": 2,
+            "rating":3
+        },
+        {
+            "id": 26,
+            "name": "Machine Learning, Data Science and Deep Learning with Python",
+            "author": "Frank Kane",
+            "duration": 15.5,
+            "category": 2,
+            "rating":4
+        },
+        {
+            "id": 27,
+            "name": "Data Science and Machine Learning Bootcamp with R",
+            "author": "Jose Portilla",
+            "duration": 18,
+            "category": 2,
+            "rating":5
+        },
+        {
+            "id": 28,
+            "name": "Introduction to Machine Learning for Data Science",
+            "author": " David Valentine",
+            "duration": 5.5,
+            "category": 2,
+            "rating":3
+        },
+        {
+            "id": 29,
+            "name": "Complete Machine Learning & Data Science Bootcamp 2022",
+            "author": "Andrei Neagoie, Daniel Bourke",
+            "duration": 44,
+            "category": 2,
+            "rating":4
+        },
+        {
+            "id": 30,
+            "name": "Leadership: Practical Leadership Skills",
+            "author": "Chris Croft",
+            "duration": 3,
+            "category": 3,
+            "rating":5
+        },
+        {
+            "id": 31,
+            "name": "Design Thinking in 3 steps",
+            "author": "Alan Cooper",
+            "duration": 1.5,
+            "category": 3,
+            "rating":3
+        },
+        {
+            "id": 32,
+            "name": "Emotional Intelligence at Work: Learn from your Emotions",
+            "author": "Leila Bulling Towne",
+            "duration": 1,
+            "category": 3,
+            "rating":4
+        },
+        {
+            "id": 33,
+            "name": "Communication Fundamentals: How to Communicate Better",
+            "author": "Lorraine Wiseman",
+            "duration": 1.5,
+            "category": 3,
+            "rating":5
+        },
+        {
+            "id": 34,
+            "name": "Design Thinking for Beginners: Develop Innovative Ideas",
+            "author": "Laura Pickel",
+            "duration": 1,
+            "category": 3,
+            "rating":3
+        },
+        {
+            "id": 35,
+            "name": "Time Management Mastery: Do More, Stress Less",
+            "author": "Alexis Haselberger",
+            "duration": 2,
+            "category": 3,
+            "rating":4
+        },
+        {
+            "id": 36,
+            "name": "Storytelling to Influence",
+            "author": "Jeff Tan",
+            "duration": 1,
+            "category": 3,
+            "rating":5
+        },
+        {
+            "id": 37,
+            "name": "Better Business Writing Skills",
+            "author": "Mark Morris",
+            "duration": 3.5,
+            "category": 3,
+            "rating":3
+        },
+        {
+            "id": 38,
+            "name": "Psychology of Diversity and Unconscious Bias",
+            "author": " Andrew Luttrell",
+            "duration": 2.5,
+            "category": 3,
+            "rating":4
+        },
+        {
+            "id": 39,
+            "name": "Consulting Approach to Problem Solving",
+            "author": "Piotr Gawlicki",
+            "duration": 1.5,
+            "category": 3,
+            "rating":5
+        },
+        {
+            "id": 40,
+            "name": "The complete Digital Marketing Course - 12 Courses in 1",
+            "author": "Rob Percival, Daragh Walsh",
+            "duration":22.5,
+            "category": 4,
+            "rating":3
+        },
+        {
+            "id": 41,
+            "name": "Ultimate Google Ads Training 2021: Profit with Pay Per Click",
+            "author": "Isaac Rudansky",
+            "duration":24.5,
+            "category": 4,
+            "rating":4
+        },
+        {
+            "id": 42,
+            "name": "Digital Marketing Masterclass - 23 Marketing Courses in 1",
+            "author": "Phil Ebiner, Diego Davila",
+            "duration":36,
+            "category": 4,
+            "rating":5
+        },
+        {
+            "id": 43,
+            "name": "Social Media Marketing MASTERY | Learn Ads on 10+ Platforms",
+            "author": "COURSE ENVY",
+            "duration":10,
+            "category": 4,
+            "rating":3
+        },
+        {
+            "id": 44,
+            "name": "Google Analytics Certification - Become Analytics Certified!",
+            "author": "Daragh Walsh",
+            "duration":2.5,
+            "category": 4,
+            "rating":4
+        },
+        {
+            "id": 45,
+            "name": "SEO 2022: Complete SEO Training + SEO for WordPress Websites",
+            "author": "Arun Nagarathanam",
+            "duration":12,
+            "category": 4,
+            "rating":5
+        },
+        {
+            "id": 46,
+            "name": "MBA in a Box: Business Lessons from a CEO",
+            "author": "365 Careers",
+            "duration":11.5,
+            "category": 4,
+            "rating":3
+        },
+        {
+            "id": 47,
+            "name": "Mega Digital Marketing Course A-Z: 12 Courses in 1 + Updates",
+            "author": "Pouya Eti",
+            "duration":70,
+            "category": 4,
+            "rating":4
+        },
+        {
+            "id": 48,
+            "name": "The Complete Digital Marketing Guide - 22 Courses in 1",
+            "author": "Robin & Jesper",
+            "duration":3,
+            "category": 4,
+            "rating":5
+        },
+        {
+            "id": 49,
+            "name": "ClickBank Success - Affiliate Marketing Without A Website",
+            "author": "KC Tan",
+            "duration":3,
+            "category": 4,
+            "rating":3
+        },
+        {
+            "id":50,
+            "name": "2022 Complete Python Bootcamp From Zero to Hero in Python",
+            "author": "Jose Portilla",
+            "duration": 22,
+            "category": 5,
+            "rating":4
+        },
+        {
+            "id":51,
+            "name": "The Web Developer Bootcamp 2022",
+            "author": "Colt Steele",
+            "duration": 64,
+            "category": 5,
+            "rating":5
+        },
+        {
+            "id":52,
+            "name": "The Complete 2022 Web Development Bootcamp",
+            "author": "Dr. ANgela Yu",
+            "duration": 55.5,
+            "category": 5,
+            "rating":3
+        },
+        {
+            "id":53,
+            "name": "Angular - The Complete Guide (2022 Edition)",
+            "author": "Maximilian Schwarzmuller",
+            "duration": 34,
+            "category": 5,
+            "rating":4
+        },
+        {
+            "id":54,
+            "name": "Java Programming Masterclass covering Java 11 & Java 17",
+            "author": "Tim Buchalka",
+            "duration": 80.5,
+            "category": 5,
+            "rating":5
+        },
+        {
+            "id":55,
+            "name": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+            "author": "Maximilian Schwarzmuller",
+            "duration": 48.5,
+            "category": 5,
+            "rating":3
+        },
+        {
+            "id":56,
+            "name": "The Complete JavaScript Course 2022: From Zero to Expert!",
+            "author": "Jonas Schmedtmann",
+            "duration": 69,
+            "category": 5,
+            "rating":4
+        },
+        {
+            "id":57,
+            "name": "100 Days of Code: The Complete Python Pro Bootcamp for 2022",
+            "author": "Dr.Angela Yu",
+            "duration": 64,
+            "category": 5,
+            "rating":5
+        },
+        {
+            "id":58,
+            "name": "Complete C# Unity Game Developer 2D",
+            "author": "Rick Davidson, Gary Pettie",
+            "duration": 18,
+            "category": 5,
+            "rating":3
+        },
+        {
+            "id":59,
+            "name": "Learn Python Programming Masterclass",
+            "author": "Time Buchalka, Jean-Paul Roberts",
+            "duration": 70.5,
+            "category": 5,
+            "rating":4
+        }
+
+
+    ]
+}
+
+
+

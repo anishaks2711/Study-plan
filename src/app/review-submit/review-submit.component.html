@@ -1,0 +1,23 @@
+
+  <div class="section">
+    <p>Your Schedule: Time to complete: {{dur}} Hrs</p>
+    <table>
+    <tr height="40px">
+      <th>Priority</th>
+      <th>Courses</th>
+      <th>Category</th>
+      <th>Duration</th>
+    </tr>
+    <tr height="60px" *ngFor="let element of courses |async; let i = index;">
+      <td>{{i+1}}</td>
+      <td>{{element.name}}</td>
+      <td>{{element.category}}</td>
+      <td>{{element.duration}}</td>
+    </tr>
+    </table>
+    <hr>
+    
+    <Btn class="back" [cmd]="Btn_back.value" [col]="Btn_back.color" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses']"></Btn>
+    <Btn class="submit" [types]="types" (eventClick)="addDraft($event)" [courses]="arr" [month]="m.name" [cmd]="Btn_submit.value" [col]="Btn_submit.color" [routerLink]="['/MyStudyPlans']"></Btn>
+  </div>
+  

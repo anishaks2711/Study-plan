@@ -1,0 +1,19 @@
+
+  <div class="section">
+    <h3>Study Plan Summary - {{m.month}} 2022</h3>
+    <hr>
+    <p class="header">Your Study Goals</p>
+    <p class="total">Total Hours: {{totaldur}}</p>
+    <getgoal [month]="m.month"></getgoal>
+    <div class="list_box">
+    <getcompleted [month]="m.month" [completed]="compcourse"></getcompleted>
+    <getnotcompleted [month]="m.month" [completed]="compcourse" [courses]="courses"></getnotcompleted>
+    </div>
+    <div class="pie">
+    <piechart [types]="pietype1" [completed]="compcourse" [courses]="courses"></piechart>
+    <piechart [types]="pietype2" [completed]="compcourse" [courses]="courses"></piechart>
+    </div>
+    <hr>
+    <Btn class="back" [cmd]="Btn_back.value" [col]="Btn_back.color" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses/ReviewPlan/InProgress']"></Btn>
+    <Btn class="home" [cmd]="Btn_home.value"  [col]="Btn_home.color" [routerLink]="['/MyStudyPlans']"></Btn>
+    </div>

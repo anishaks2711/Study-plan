@@ -1,0 +1,10 @@
+
+  h3{color:#006778;}
+  .section{margin:auto;width:90%;}
+  .list_box{display:inline-block; width: 55%;}
+  .pie{display:inline-flex;flex-direction:column ;width: 40%;}
+  .header{display:inline-block;}
+  .total{display:inline-block;position:relative; left:80%;}
+  hr{border-top: 1px solid black;border-left:0;border-right:0;border-bottom:0;}
+  .back{position:relative; left:88%;}
+  .home{position:relative; left:90%;}

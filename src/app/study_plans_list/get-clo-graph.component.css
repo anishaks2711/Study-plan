@@ -1,0 +1,23 @@
+
+    .bars{
+        display:inline-block; 
+        height:58%; 
+        width:50%; 
+        position:relative;
+        top:30%;
+        left:20%;
+    }
+
+    .bar_green{
+        background:#82c91e;
+        height:45%;
+        margin-bottom:1%;
+        position:absolute;
+    }
+
+    .bar_red{
+        background:#fa5252;
+        height:45%;
+        position:absolute;
+        
+    }

@@ -1,0 +1,23 @@
+<form method="post" action="newstudyplan.php">
+  <div class="section" id="form_page">
+    <h3>New Study Plan</h3>
+    <hr><br>
+  
+    <table>
+    <tr>
+      <td><h4>Start Month:</h4></td>
+      <td><month-dropdown id="start-month"></month-dropdown></td>
+    </tr>
+    </table>
+  
+    <br>
+    <label for="study_goals"><h4>Study Goals:</h4></label>
+    <textarea id="study_goals" name="study_goals" rows="10" style="margin-bottom:20px;" [(ngModel)]="goal"></textarea>
+  
+  
+    <Btn class="cancel" [cmd]="Btn_cancel.value" [routerLink]="['/MyStudyPlans']" [col]="Btn_cancel.color"></Btn>
+    <Btn class="finish" [types]="types" [month]="m.name" [content]="goal" (eventClick)="addGoal($event)" [cmd]="Btn_finish.value" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses']" [col]="Btn_finish.color"></Btn>
+  
+    <hr>
+    </div>
+  </form>
