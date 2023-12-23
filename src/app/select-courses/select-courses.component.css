@@ -1,0 +1,29 @@
+
+  h3{margin-bottom:2px;color:#006778;}
+
+  .section
+  {
+      margin:auto; 
+      width:60%;
+  }
+  
+  hr
+  {
+      border-top: 1px solid black; 
+      border-left:0; 
+      border-right:0; 
+      border-bottom:0;
+    }
+  .cancel
+  { 
+    position:relative;
+    left:78%;
+  }
+  
+
+  .finish
+  {
+    position:relative; 
+    left:80%;
+  }
+  

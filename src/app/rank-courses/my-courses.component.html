@@ -1,0 +1,21 @@
+
+  <div class="grid_container table-top">
+    <section><b>Priority</b></section>
+    <section><b>Courses</b></section>
+    <section><b>Category</b></section>
+    <section><b>Duration</b></section>
+  </div>
+  <ng-container *ngFor="let element of courses |async; let i = index;">
+  <div class="box grid_container">
+  <section>
+  <button (click)="moveUp(i)" *ngIf="i!==0" class="arrows up"><fa-icon [icon]="faArrowUp"></fa-icon></button>
+  <button (click)="moveDown(i)" *ngIf="i!==len-1" class="arrows down"><fa-icon [icon]="faArrowDown"></fa-icon></button>
+  </section>
+    <section>
+    {{element.name}}
+    <br>
+    {{element.author}}
+    </section>
+    <section>{{element.category}}</section>
+    <section>{{element.duration}} hrs</section>
+  </div>

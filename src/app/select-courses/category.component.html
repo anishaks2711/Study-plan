@@ -1,0 +1,11 @@
+
+  <div class="box" (click)="toggleShow()">
+    <b class="Title" >{{title}}</b>
+    </div>
+    <ng-container *ngFor="let element of Cat_courses; let i = index">
+    <div class="dropdown grid_container" *ngIf="id===element.category && isShown" >
+        <section><Btn [cnt]="selected[i]? 1:count" [types]="types" (eventClick)="courseHandler($event)"  [change_cmd]="selected[i]?Btn_props.value:Btn_change.value" [change_col]="selected[i]?Btn_props.color:Btn_change.color" [cmd]="selected[i]?Btn_change.value:Btn_props.value" [col]="selected[i]?Btn_change.color:Btn_props.color" [id]="element.id" [name]="element.name" [author]="element.author" [dur]="element.duration" [category]="title"></Btn></section>
+        <section><getCourseName [name]="element.name"></getCourseName></section>
+        <section><getAuthor [author]="element.author"></getAuthor></section>
+        <section><getDuration [time]="element.duration"></getDuration></section>
+    </div>

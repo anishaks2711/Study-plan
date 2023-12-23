@@ -1,0 +1,5 @@
+
+  <select class="drop_down" (change)="onChange($event)">
+    <option *ngFor="let month of months" [value]="month.name" [selected]="selectedItem.name === month.name">
+    {{month.name}}</option>
+  </select>

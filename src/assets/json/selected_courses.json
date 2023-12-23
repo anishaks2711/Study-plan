@@ -1,0 +1,34 @@
+{
+    "selected_courses": [
+        {
+            "course_name":"AWS Certification",
+            "author":"Stephane",
+            "category": "Cloud Computing",
+            "duartion": 30
+        },
+        {
+            "course_name":"R Programming A-Z",
+            "author":"Kirill",
+            "category": "Data Science",
+            "duartion": 25
+        },
+        {
+            "course_name":"Emotional Intelligence",
+            "author":"Leila",
+            "category": "Leadership & Management",
+            "duartion": 10
+        },
+        {
+            "course_name":"Digital Marketing",
+            "author":"Doug",
+            "category": "Marketing",
+            "duartion": 15
+        },
+        {
+            "course_name":"Complete Python Bootcamp",
+            "author":"Jose",
+            "category": "Development",
+            "duartion": 33
+        }
+    ]
+}

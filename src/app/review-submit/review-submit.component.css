@@ -1,0 +1,22 @@
+
+  .section{margin:auto;width:80%;}
+  .back{position:relative; left:88%;}
+  .submit{position:relative; left:90%;}
+  .start{position:relative; left:86%;}
+  hr{border-top: 1px solid black;border-left:0;border-right:0;border-bottom:0;}
+  table{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    border-collapse: collapse;
+    text-align:center;
+    width:100%;
+    color:white;
+  }
+  th{border: solid 1px white;
+  background-color: #43919b;
+  padding:1%;}
+  td{
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    background-color: #95d1cc;
+  }

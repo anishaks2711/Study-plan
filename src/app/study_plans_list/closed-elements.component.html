@@ -1,0 +1,16 @@
+
+    <div *ngIf="len===0">
+        <div class="box_bg">No completed plans :(</div>
+    </div>
+    <!-- <div class="box grid_container" *ngFor="let element of past">
+        <section><getMonth [month]="element.month"></getMonth></section>
+        <section><getCourseCount [count]="element.courses_count"></getCourseCount></section>
+        <getCloGraph [count]="element.courses_count" [Completed]="element.completed" [Incomplete]="element.incomplete"></getCloGraph>
+        <section><Btn [cmd]="Btn_props.value" [col]="Btn_props.color"></Btn></section>
+    </div> -->
+    <div class="box grid_container" *ngFor="let element of ccourses |async;">
+        <section><getMonth [month]="element.month"></getMonth></section>
+        <section><getCourseCount [count]="element.courses_count"></getCourseCount></section>
+        <getCloGraph [count]="element.courses_count" [Completed]="element.completed" [Incomplete]="element.incomplete"></getCloGraph>
+        <section><Btn [types]="types" [month]="element.month" (eventClick)="selectMonth($event)" [cmd]="Btn_props.value" [col]="Btn_props.color" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses/ReviewPlan/InProgress/Summary']"></Btn></section>
+    </div>
