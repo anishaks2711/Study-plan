@@ -1,0 +1,12 @@
+
+  <h4>Month: {{m.name}} 2022</h4>
+  <hr class="hr1">
+
+  <div class="section">
+    <p>Rank your courses based on your priority:</p>
+    <mycourses></mycourses>
+  </div>
+  <hr>
+  <Btn class="back" [cmd]="Btn_back.value" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses']" [col]="Btn_back.color"></Btn>
+  <Btn class="confirm" [cmd]="Btn_confirm.value" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses/ReviewPlan']" [col]="Btn_confirm.color"></Btn>
+  

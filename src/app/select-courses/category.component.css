@@ -1,0 +1,8 @@
+
+  .Title{
+    margin-left: 4%;
+  }
+  .box{border: 2px solid #95D1CC; background-color:#95D1CC;height:30px; position:relative;margin-top: 5%;}
+  .dropdown{border: 1px solid white;background-color:#D4ECDD}
+  .grid_container{display:grid; grid-template-columns: 15% 52% 23% 10%; grid-gap:1%;}
+  Btn{padding-left:10px; float:left;margin-top: 5%;}

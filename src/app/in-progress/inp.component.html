@@ -1,0 +1,26 @@
+
+  <div class="section">
+    <p class="header">Study Plan - {{m.month}} 2022</p>
+    <p class="perc">Percentage Completed : {{percomp}} %</p>
+    
+    <hr>
+    <table>
+    <tr height="40px">
+      <th>Priority</th>
+      <th>Courses</th>
+      <th>Category</th>
+      <th>Status</th>
+    </tr>
+    <tr height="60px" *ngFor="let element of courses; let i = index;">
+      <td>{{i+1}}</td>
+      <td [ngClass]='{"strike-out":checked[i], "normal":!checked[i]}'>{{element.name}}</td>
+      <td [ngClass]='{"strike-out":checked[i]}'>{{element.category}}</td>
+      <td><input [checked]="checked[i]" type="checkbox" class="cb" (click)="percDone(i)" placeholder="{{i}}"></td>
+    </tr>
+    </table>
+    <hr>
+    
+    
+    <Btn class="submit" (eventClick)="OnGoing($event)" [types]="typeso" [month]="m.month" [courses]="courses" [checked]="farr" [cmd]="Btn_submit.value"  [col]="Btn_submit.color" [routerLink]="['/MyStudyPlans']"></Btn>
+    <Btn class="summary" (eventClick)="Closed($event)" [types]="typesc" [month]="m.month" [courses]="courses" [checked]="farr" [cmd]="Btn_summary.value" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses/ReviewPlan/InProgress/Summary']" [col]="Btn_summary.color"></Btn>
+  </div>

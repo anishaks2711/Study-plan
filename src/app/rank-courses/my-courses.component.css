@@ -1,0 +1,14 @@
+
+  .table-top{color:#006778; font-size:115% ;}
+  .box{border: 2px solid white; background-color:#95D1CC;min-height:60px; margin-top: 1%; cursor:move; position:relative;}
+  .grid_container{display:grid; grid-template-columns: 9% 39% 39% 10%; grid-gap:1%;}
+  hr{border-top: 1px solid black; width:50%; border-bottom: 0px;border-left: 0px; border-right: 0px;}
+  .arrows{border-radius: 50%;}
+  .up{background-color:#82c91e;
+    position: absolute;
+    left: 3%;
+    top: 7px;}
+  .down{background-color:#fa5252;
+    position: absolute;
+    left: 3%;
+    top: 30px;}

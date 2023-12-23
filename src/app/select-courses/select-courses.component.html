@@ -1,0 +1,15 @@
+<div class="section" id="form_page">
+    <h3>Study Plan - {{m.name}} 2022</h3>
+    <hr>
+
+    <p>Select the courses from each category you want to add to your study plan. You may select only one course in each category.</p>
+
+    <div *ngFor="let element of categories_list">
+        <cat [title]="element.name" [id]="element.id"></cat>
+    </div>
+    <hr>
+    <Btn class="cancel" [cmd]="Btn_cancel.value" [routerLink]="['/MyStudyPlans/NewPlan']" [col]="Btn_cancel.color"></Btn>
+    <Btn class="finish" [cmd]="Btn_finish.value" [routerLink]="['/MyStudyPlans/NewPlan/SelectCourses/RankCourses']" [col]="Btn_finish.color"></Btn>
+  
+    
+    </div>
